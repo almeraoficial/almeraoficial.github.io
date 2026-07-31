@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // ==========================================
-    // AÑO AUTOMÁTICO FOOTER
+    // AÑO AUTOMÁTICO DEL FOOTER
     // ==========================================
 
     const año = document.querySelector("#year");
@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     // ==========================================
-    // MENSAJE DE CARGA CORRECTA
+    // CONFIRMACIÓN DE CARGA
     // ==========================================
 
     console.log(
