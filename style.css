@@ -144,35 +144,15 @@ display:flex;
 
 align-items:center;
 
-background:white;
+background-image:url("montaña-mar.jpg.png");
 
-}
+background-size:cover;
 
-.hero-content{
+background-position:center;
 
-display:grid;
+min-height:600px;
 
-grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
-
-gap:70px;
-
-align-items:center;
-
-}
-
-.hero-text p{
-
-font-size:1.15rem;
-
-margin-bottom:30px;
-
-}
-
-.hero-image img{
-
-border-radius:25px;
-
-box-shadow:var(--shadow);
+color:white;
 
 }
 
