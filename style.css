@@ -137,7 +137,15 @@ background:var(--gold2);
 /* HERO */
 
 .hero{
+.overlay{
 
+position:absolute;
+
+inset:0;
+
+background:rgba(0,0,0,0.35);
+
+}
 padding:90px 0;
 
 display:flex;
