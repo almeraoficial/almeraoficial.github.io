@@ -580,7 +580,530 @@ font-weight:600;
 text-shadow:
 0 2px 4px rgba(0,0,0,0.9),
 0 0 10px rgba(0,0,0,0.6);
+/* ================================= */
+/* SECCION VALOR DE INVERSION */
+/* ================================= */
 
+
+.valor-inversion{
+
+padding:80px 20px;
+
+background:#fafafa;
+
+}
+
+
+
+.valor-inversion h2{
+
+text-align:center;
+
+font-size:38px;
+
+margin-bottom:15px;
+
+color:#222;
+
+}
+
+
+
+.valor-inversion .section-subtitle{
+
+text-align:center;
+
+max-width:750px;
+
+margin:0 auto 50px;
+
+font-size:18px;
+
+line-height:1.6;
+
+color:#555;
+
+}
+
+
+
+
+.comparativa-grid{
+
+display:grid;
+
+grid-template-columns:repeat(5,1fr);
+
+gap:25px;
+
+}
+
+
+
+.comparativa-card{
+
+background:white;
+
+padding:30px 20px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+transition:.3s ease;
+
+border:1px solid #eee;
+
+}
+
+
+
+.comparativa-card:hover{
+
+transform:translateY(-8px);
+
+box-shadow:0 15px 35px rgba(0,0,0,0.15);
+
+}
+
+
+
+.comparativa-icon{
+
+font-size:45px;
+
+margin-bottom:15px;
+
+}
+
+
+
+.comparativa-card h3{
+
+font-size:22px;
+
+margin-bottom:12px;
+
+color:#222;
+
+}
+
+
+
+.precio{
+
+font-size:20px;
+
+font-weight:bold;
+
+color:#b8860b;
+
+margin-bottom:15px;
+
+}
+
+
+
+.comparativa-card p{
+
+font-size:15px;
+
+line-height:1.5;
+
+color:#555;
+
+}
+
+
+
+.comparativa-card .mensaje{
+
+margin-top:15px;
+
+font-weight:600;
+
+color:#333;
+
+}
+
+
+
+.frase-cierre-valor{
+
+margin-top:50px;
+
+text-align:center;
+
+font-size:26px;
+
+font-weight:bold;
+
+color:#222;
+
+padding:20px;
+
+}
+
+
+
+
+
+/* ================================= */
+/* COMPRA SEGURA */
+/* ================================= */
+
+
+
+.compra-segura{
+
+padding:80px 20px;
+
+background:white;
+
+}
+
+
+
+.compra-segura h2{
+
+text-align:center;
+
+font-size:38px;
+
+color:#222;
+
+margin-bottom:15px;
+
+}
+
+
+
+.compra-segura .section-subtitle{
+
+text-align:center;
+
+font-size:18px;
+
+color:#555;
+
+margin-bottom:50px;
+
+}
+
+
+
+.seguridad-grid{
+
+display:grid;
+
+grid-template-columns:repeat(4,1fr);
+
+gap:30px;
+
+}
+
+
+
+.seguridad-card{
+
+background:#fafafa;
+
+padding:35px 25px;
+
+border-radius:20px;
+
+text-align:center;
+
+box-shadow:0 8px 25px rgba(0,0,0,0.07);
+
+transition:.3s ease;
+
+}
+
+
+
+.seguridad-card:hover{
+
+transform:translateY(-6px);
+
+}
+
+
+
+.seguridad-icon{
+
+font-size:45px;
+
+margin-bottom:20px;
+
+}
+
+
+
+.seguridad-card h3{
+
+font-size:22px;
+
+margin-bottom:15px;
+
+color:#222;
+
+}
+
+
+
+.seguridad-card p{
+
+font-size:16px;
+
+line-height:1.6;
+
+color:#555;
+
+}
+
+
+
+
+
+/* ================================= */
+/* CTA FINAL ALMERA */
+/* ================================= */
+
+
+
+.cta-final-almera{
+
+padding:90px 20px;
+
+background:linear-gradient(
+135deg,
+#111,
+#333
+);
+
+text-align:center;
+
+color:white;
+
+}
+
+
+
+.cta-final-almera h2{
+
+font-size:40px;
+
+max-width:850px;
+
+margin:0 auto 20px;
+
+line-height:1.3;
+
+}
+
+
+
+.cta-final-almera p{
+
+font-size:19px;
+
+max-width:700px;
+
+margin:0 auto 40px;
+
+line-height:1.6;
+
+color:#eee;
+
+}
+
+
+
+.btn-cta-final{
+
+display:inline-block;
+
+padding:18px 45px;
+
+background:#d4af37;
+
+color:white;
+
+font-size:18px;
+
+font-weight:bold;
+
+border-radius:50px;
+
+text-decoration:none;
+
+transition:.3s ease;
+
+}
+
+
+
+.btn-cta-final:hover{
+
+transform:scale(1.05);
+
+background:#b89620;
+
+}
+
+
+
+
+
+/* ================================= */
+/* TABLET */
+/* ================================= */
+
+
+@media(max-width:1024px){
+
+
+.comparativa-grid{
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+
+.seguridad-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+
+
+.cta-final-almera h2{
+
+font-size:34px;
+
+}
+
+
+
+}
+
+
+
+
+
+/* ================================= */
+/* MOVIL */
+/* ================================= */
+
+
+@media(max-width:768px){
+
+
+
+.valor-inversion{
+
+padding:60px 15px;
+
+}
+
+
+
+.valor-inversion h2,
+.compra-segura h2{
+
+font-size:30px;
+
+}
+
+
+
+.comparativa-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+
+.comparativa-card{
+
+padding:25px;
+
+}
+
+
+
+.frase-cierre-valor{
+
+font-size:21px;
+
+}
+
+
+
+.compra-segura{
+
+padding:60px 15px;
+
+}
+
+
+
+.seguridad-grid{
+
+grid-template-columns:1fr;
+
+}
+
+
+
+.seguridad-card{
+
+padding:30px 20px;
+
+}
+
+
+
+.cta-final-almera{
+
+padding:70px 20px;
+
+}
+
+
+
+.cta-final-almera h2{
+
+font-size:30px;
+
+}
+
+
+
+.cta-final-almera p{
+
+font-size:17px;
+
+}
+
+
+
+.btn-cta-final{
+
+width:100%;
+
+max-width:320px;
+
+}
+
+
+
+}
 }
 }
 } 
