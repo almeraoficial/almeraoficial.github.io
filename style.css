@@ -1120,7 +1120,18 @@ max-width:320px;
 .logo {
     width: 65px;
 }
+.logo img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+@media (max-width:768px){
 
+.logo img {
+    width: 70px;
+}
+
+}   
 }
 }
 }
