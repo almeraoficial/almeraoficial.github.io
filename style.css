@@ -1127,7 +1127,36 @@ max-width:320px;
 }
 @media (max-width:768px){
 
-.logo img {
+/*=========================
+LOGO PREMIUM ALMERA
+==========================*/
+
+.logo{
+
+display:flex;
+align-items:center;
+text-decoration:none;
+
+}
+
+.logo-img{
+
+height:56px;
+width:auto;
+display:block;
+
+transition:.35s ease;
+
+filter:
+drop-shadow(0 2px 4px rgba(0,0,0,.25));
+
+}
+
+.logo-img:hover{
+
+transform:scale(1.04);
+
+}
     width: 70px;
 }
 
@@ -1137,4 +1166,17 @@ max-width:320px;
 }
 }
 } 
+}
+/*=========================
+LOGO MOVIL
+==========================*/
+
+@media(max-width:768px){
+
+.logo-img{
+
+height:42px;
+
+}
+
 }
