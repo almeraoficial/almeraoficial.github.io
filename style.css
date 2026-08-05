@@ -1176,7 +1176,42 @@ LOGO MOVIL
 .logo-img{
 
 height:42px;
+/*==========================
+MENU PREMIUM
+==========================*/
 
+.menu{
+
+display:flex;
+gap:38px;
+list-style:none;
+margin:0;
+padding:0;
+
+}
+
+.menu li{
+
+list-style:none;
+
+}
+
+.menu a{
+
+text-decoration:none;
+color:#ffffff;
+font-size:15px;
+font-weight:500;
+letter-spacing:.5px;
+transition:.3s;
+
+}
+
+.menu a:hover{
+
+color:#D4AF37;
+
+}
 }
 
 }
