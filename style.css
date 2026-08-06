@@ -1226,6 +1226,11 @@ color:#D4AF37;
     width: 300px;
     height: auto;
     display: block;
+     .logo-img{
+    width: 360px;
+    height: auto;
+    display: block;
+}   
 }    
 }
 }
