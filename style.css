@@ -1218,6 +1218,11 @@ color:#D4AF37;
     width: 220px;
     height: auto;
     display: block;
+      .logo-img{
+    width: 260px;
+    height: auto;
+    display: block;
+}
 }
 }
 }
