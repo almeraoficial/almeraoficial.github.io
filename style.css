@@ -1210,7 +1210,11 @@ transition:.3s;
 .menu a:hover{
 
 color:#D4AF37;
-
+.logo-img{
+    width: 140px;
+    height: auto;
+    display: block;
+}
 }
 }
 
